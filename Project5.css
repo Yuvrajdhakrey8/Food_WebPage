@@ -1,16 +1,25 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  font-weight: bold;
-  box-sizing: border-box;
-  font-family: Inter;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    background: linear-gradient(to right, #eca6a6, #ffd588, #f1f1c3);
 }
 
 .content{
     max-width: 100vw;
     overflow: hidden;
 }
+
 /* navbar */
+nav{
+    box-shadow: 5px 5px 5x rgba(1, 1, 1, 0.05);
+    position: sticky;   
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -56,9 +65,10 @@
 
 button{
     border-radius: 5px;
-    background-color: #FFC066;
+    background-color: #25201a;
     padding: 10px 15px;
     color: white;
+    cursor: pointer;
     font-size: 20px;
     border: 1px white;
 }
@@ -193,6 +203,7 @@ font-size: small;
 }
 
 .footer_content {
+    background: linear-gradient(to right, #844b4b, #f6b845, #dfdfc1);
     display: grid;
     grid-template-columns: repeat(4,auto);
     margin-top: 70px;
@@ -238,6 +249,6 @@ input{
     text-decoration : underline 2px solid blue;
 }
 .icons div:hover{
-    ursor: pointer;
-    background-color: rgb(187, 187, 222);c
+    cursor: pointer;
+    background-color: rgb(187, 187, 222);
 }
